@@ -3,7 +3,7 @@
 
 ## 安装配置
 1. 将本仓库 clone 下来后，修改 index.php 顶部的 `STORAGE_ROOT` 改为你的网站实际地址
-2. 配置 Nginx，伪静态可参考本仓库 nginx.conf 文件的内容
+2. 配置 Nginx，伪静态可参考本仓库 rewrite.conf 文件的内容
 3. 将 bss-update.service 文件放入 `/etc/systemd/system/`
 4. 执行 `systemctl daemon-reload` 重载，然后执行 `systemctl enable bss-update --now` 运行并设置开机启动
 
