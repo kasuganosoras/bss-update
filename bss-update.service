@@ -6,8 +6,6 @@ Description=Blessing Skin Update Service
 After=network.service
 
 [Service]
-User=www
-Group=www
 Restart=always
 RestartSec=5s
 WorkingDirectory=/home/wwwroot/static-cdn.zerodream.net/bss/
