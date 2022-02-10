@@ -1,0 +1,17 @@
+# Blessing Skin Update Service
+# ----------------------------------
+
+[Unit]
+Description=Blessing Skin Update Service
+After=network.service
+
+[Service]
+User=www
+Group=www
+Restart=always
+RestartSec=5s
+WorkingDirectory=/home/wwwroot/static-cdn.zerodream.net/bss/
+ExecStart=/usr/local/php/bin/php index.php
+
+[Install]
+WantedBy=multi-user.target
