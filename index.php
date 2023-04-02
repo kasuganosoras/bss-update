@@ -74,7 +74,7 @@ if(php_sapi_name() == 'cli') {
     // Get file list
     $list    = GetVersionList($type, $version);
     // PHP version
-    $phpver  = $version > 5 ? '7.4.0' : '7.3.0';
+    $phpver  = $version > 5 ? '8.0.2' : '7.3.0';
 
     if(in_array(sprintf('blessing-skin-server-%s.zip', $subver), $list) && !empty($subver)) {
         $final = $subver;
