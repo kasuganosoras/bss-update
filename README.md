@@ -18,7 +18,7 @@ https://yourdomain.com/bss-update/{channel}/{version}/{subversion}/{build}
 - subversion 详细版本号，例如 `5.2.0`
 - build 构建编号，例如 1，对应的就是 `6.0.0-rc.1` 中的最后一位
 
-如果不带任何参数，则默认 channel 为 `stable`，version 为 `5`。
+如果不带任何参数，则默认 channel 为 `stable`，version 为 `6`。
 
 ## 开源协议
 本项目使用 MIT 协议开源。
