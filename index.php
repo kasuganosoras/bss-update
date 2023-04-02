@@ -64,7 +64,7 @@ if(php_sapi_name() == 'cli') {
     }
 } else {
     // Get version number
-    $version = isset($_GET['v']) && is_string($_GET['v']) && preg_match("/^[0-9]{1}$/", $_GET['v']) && intval($_GET['v']) >= 4 && intval($_GET['v']) <= 6 ? intval($_GET['v']) : 5;
+    $version = isset($_GET['v']) && is_string($_GET['v']) && preg_match("/^[0-9]{1}$/", $_GET['v']) && intval($_GET['v']) >= 4 && intval($_GET['v']) <= 6 ? intval($_GET['v']) : 6;
     // Get release type
     $type    = !isset($_GET['type']) || !is_string($_GET['type']) || ($_GET['type'] !== 'rc' && $_GET['type'] !== 'beta' && $_GET['type'] !== 'alpha') ? '' : $_GET['type'];
     // Get subversion, format 5.x.x
